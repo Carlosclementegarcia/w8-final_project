@@ -13,36 +13,38 @@ Desarrollo del proyecto:
 Exploración de los datos y unificación de los mismos:
 
 - Limpìeza de los datos en Python 
-Los ficheros que he manejado se necuentran en formato .XLSX y por tanto los paso a formato .CSV, a fin de poder utilizarlos de forma conveniente, a partir de hay se han eliminado columnas con información no precisa para este proyecto, transformación y cohesión de datos en columnas y  paso a dato numérico, para realizar una predicción en una Regresión lineal.
+Los ficheros que he manejado se necuentran en formato .XLSX y por tanto los paso a formato .CSV, a fin de poder utilizarlos de forma conveniente, a partir de hay se han eliminado columnas con información no precisa para este proyecto, transformación y cohesión de datos en columnas y  paso a dato numérico, para realizar una predicción en una Regresión lineal. Trabajo realizado en Visula Studio Code.
 
 - Machine learning en Python
 Se crea un modelo predictivo basado en el fichero payments2, creado exprofeso para este motivo que va a trabajar en los campos month , year y amount, trabajando fundamentalmente en los años ya citados arriba. 
-Es una predicción sencilla debida a la ausencia de otro tipo de datos, pero que nos arroja una cifra bastante coherente que nos sirve para fijar el presupuesto de 2023
+Es una predicción sencilla debida a la ausencia de otro tipo de datos, pero que nos arroja una cifra bastante coherente que nos sirve para fijar el presupuesto de 2023.
+
+![image](https://github.com/Carlosclementegarcia/w8-final_project/assets/129602687/aa42042c-c35e-4b03-983c-fa25d0514c9c)
+
 
 - Relación de tablas en SQL
-Relaciono entre sí las tablas de Sql, para poder acceder tanto a través de los ficheros CSV, los cuales paso a Excel, como a través de Sql, donde compruebo que funcionas las querys que le lanzo , con los datos convenientemente cargados. 
+Relaciono entre sí las tablas de Sql, para poder acceder tanto a través de los ficheros CSV, los cuales paso a Excel, como a través de Sql, donde compruebo que funcionas las querys que le lanzo , con los datos convenientemente cargados. Trabajo realizado en My Sql Workbench.
+
+![image](https://github.com/Carlosclementegarcia/w8-final_project/assets/129602687/cc5eb759-c0ee-423d-88b2-097107bc8f8c)
+
 
 - Power BI
 El paso clave para poder realizar un cuadro de mandos con unos kpi's bien definidos y que muestren al CEO de la empresa la situación en tiempo real de la compañia por toda la geografía mundial.
 
+![image](https://github.com/Carlosclementegarcia/w8-final_project/assets/129602687/9d42cc75-5f7b-4d8f-b529-d8d4e394cf36)
 
-Por tanto, el primer reto de este proyecto ha sido realizar un proceso de exploración de los datos y por razones de tiempo, especificar con el cliente qué columnas o preguntas son más prioritarias para sus procesos y enfocar la homogeneización del dato a las mismas para poder tener datos consistentes de cara a posteriores análisis y el objetivo del proyecto.
+Diseño sobre el papel  4 Dashboards como cuadro de mandos de la empresa classic models. La primera pantalla referida a todo lo que se refiere a finanzas y a control de gasto, la segunda orientada a compras y a almacén, la tercera a RRHH y la cuarta y última a Ventas
 
-Todo este proceso se ha llevado a cabo con Python en distintos Jupyter Notebooks (Arraigo_ETL1, Arraigo_ETL2 y Arraigo_ETL3).
 
-Creación de Dashboard con Power BI:
-Una vez contabamos con los datos limpios y consistentes y tras especificar con el cliente los principales KPIs y la información principal que deseaban visualizar se tomó la decisión de crear un cuadro de mando en Power BI, dado que permite un mejor enfoque de negocio.
+![image](https://github.com/Carlosclementegarcia/w8-final_project/assets/129602687/3c3e6207-95b9-42af-8607-8e03d555ea32)
 
-Con ello, creamos una Dataframe específico a partir de los datos limpios, modificando el tipo de dato de algunas columnas para optimizar la posible visualización.
+Desde estos dispositivos realizamos análisis de datos orientados a optimizar y armonizar el funcionamiento de la empresa y a dotarle de rápidas reacciones ante cualquier dificultad. Control de stock, seguimiento de cifra a vendedores, márgenes comerciales,  situación de los pagos de la compañía, etc.
 
-El resultado del cuadro de mando se puede ver en el siguiente video:
 
- prueba3.mp4 
-Futuros pasos:
-Dado que este proyecto se ha tenido que realizar en el plazo de dos semanas al tratarse del proyecto final de mi paso por el Bootcamp de Data en Ironhack, el objetivo del proyecto se ha centrado en intentar dar solución a los problemas prioritarios del cliente. Sin embargo, con el fin de poder dar una solución más efectiva, se plantean los siguientes retos:
+Al tratarse de varios dataframes con alguna información sesgada o inexistente no se ha podido avanzar más en materia de machine learning o de alimentación actualizada de los datos, aunque el trabajo está orientado a poder amplificarse de manera sencilla y eficaz.
 
-Establecer y concretar la mejor forma de respuesta a las preguntas del cuestionario para tener un sistema de recopilación del dato sostenible a largo plazo.
-Continuar con el proceso de limpieza y unificación de los datos históricos.
-Creación de una Base de Datos consistente.
-Alimentar el cuadro de mando con la nueva información y posibles futuros enfoques.
-Como valor añadido, crear un modelo de predicción de la demanda para poder plantear escenarios de actuación en el futuro y mejorar la organización interna de recursos.
+
+
+
+
+
