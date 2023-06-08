@@ -41,8 +41,14 @@ Diseño sobre el papel  4 Dashboards como cuadro de mandos de la empresa classic
 
 Desde estos dispositivos realizamos análisis de datos orientados a optimizar y armonizar el funcionamiento de la empresa y a dotarle de rápidas reacciones ante cualquier dificultad. Control de stock, seguimiento de cifra a vendedores, márgenes comerciales,  situación de los pagos de la compañía, etc.
 
+![image](https://github.com/Carlosclementegarcia/w8-final_project/assets/129602687/b6ed7297-a98c-40ca-91b9-465a7f4a6b31)
+
+
 
 Al tratarse de varios dataframes con alguna información sesgada o inexistente no se ha podido avanzar más en materia de machine learning o de alimentación actualizada de los datos, aunque el trabajo está orientado a poder amplificarse de manera sencilla y eficaz.
+
+![image](https://github.com/Carlosclementegarcia/w8-final_project/assets/129602687/e36a8747-41f4-48d9-96be-1e306ffcff32)
+
 
 
 
