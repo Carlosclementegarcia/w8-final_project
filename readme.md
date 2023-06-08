@@ -19,7 +19,8 @@ Los ficheros que he manejado se necuentran en formato .XLSX y por tanto los paso
 Se crea un modelo predictivo basado en el fichero payments2, creado exprofeso para este motivo que va a trabajar en los campos month , year y amount, trabajando fundamentalmente en los años ya citados arriba. 
 Es una predicción sencilla debida a la ausencia de otro tipo de datos, pero que nos arroja una cifra bastante coherente que nos sirve para fijar el presupuesto de 2023.
 
-![image](https://github.com/Carlosclementegarcia/w8-final_project/assets/129602687/aa42042c-c35e-4b03-983c-fa25d0514c9c)
+![image](https://github.com/Carlosclementegarcia/w8-final_project/assets/129602687/b1231f23-7df7-4059-8fcd-ac70d662ddb7)
+
 
 
 - Relación de tablas en SQL
